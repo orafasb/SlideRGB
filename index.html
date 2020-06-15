@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Value<span id="value"></span></h1>
+      <div class="slideContainer">
+        <label for="red">Red (R): </label>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          id="red"
+          class="slider"
+        />
+      </div>
+      <p></p>
+      <div class="slideContainer">
+        <label for="red">Green (G): </label>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          id="green"
+          class="slider"
+        />
+      </div>
+      <p></p>
+      <div class="slideContainer">
+        <label for="red">Blue (B): </label>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          id="blue"
+          class="slider"
+        />
+        <p></p>
+      </div>
+    </form>
+
+    <div class="square">
+      <span id="squareResult"></span>
+    </div>
+    <div></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
