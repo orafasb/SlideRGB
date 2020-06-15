@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>RGB-ORAFASB</title>
   </head>
   <body>
     <form>
-      <h1>Value<span id="value"></span></h1>
+      <h1>👾 SlideRGB 👾</h1>
+
       <div class="slideContainer">
         <label for="red">Red (R): </label>
+        <p></p>
         <input
           type="range"
           min="0"
@@ -22,7 +28,8 @@
       </div>
       <p></p>
       <div class="slideContainer">
-        <label for="red">Green (G): </label>
+        <label for="green">Green (G): </label>
+        <p></p>
         <input
           type="range"
           min="0"
@@ -34,7 +41,8 @@
       </div>
       <p></p>
       <div class="slideContainer">
-        <label for="red">Blue (B): </label>
+        <label for="blue">Blue (B): </label>
+        <p></p>
         <input
           type="range"
           min="0"
@@ -50,7 +58,9 @@
     <div class="square">
       <span id="squareResult"></span>
     </div>
+    <h1 class="valor">👉 Valor<span id="value"></span></h1>
     <div></div>
     <script src="./js/script.js"></script>
   </body>
 </html>
+
