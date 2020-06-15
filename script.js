@@ -4,7 +4,7 @@ function changecolor() {
   const red = document.getElementById("red").value;
   const green = document.getElementById("green").value;
   const blue = document.getElementById("blue").value;
-  const color = "rgb(" + red + "," + green + "," + blue + ")";
+  const color = "RGB(" + red + "," + green + "," + blue + ")";
 
   document.getElementById("squareResult").style.background = color;
   document.getElementById("value").innerHTML = ": " + color;
